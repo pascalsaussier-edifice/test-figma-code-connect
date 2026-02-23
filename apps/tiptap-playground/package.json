@@ -1,0 +1,61 @@
+{
+  "name": "edifice-tiptap-playground",
+  "version": "2.0.1",
+  "private": true,
+  "description": "Edifice Tiptap Playground",
+  "homepage": "https://github.com/edificeio/edifice-frontend-framework/tree/main/apps/tiptap-playground#readme",
+  "bugs": {
+    "url": "https://github.com/edificeio/edifice-frontend-framework/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edificeio/edifice-frontend-framework.git",
+    "directory": "apps/tiptap-playground"
+  },
+  "license": "GPL-3.0",
+  "author": "Edifice",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm run typecheck && vite build",
+    "dev": "vite",
+    "format": "prettier --write .",
+    "lint": "eslint",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit"
+  },
+  "dependencies": {
+    "@edifice.io/bootstrap": "workspace:*",
+    "@edifice.io/react": "workspace:*",
+    "@edifice.io/client": "workspace:*",
+    "@react-spring/web": "catalog:",
+    "@tanstack/react-query": "catalog:",
+    "clsx": "catalog:",
+    "i18next": "23.14.0",
+    "i18next-http-backend": "2.6.1",
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "react-error-boundary": "4.0.13",
+    "react-hook-form": "catalog:",
+    "react-i18next": "catalog:",
+    "react-router-dom": "^6.27.0",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@axe-core/react": "^4.10.0",
+    "@eslint/js": "catalog:",
+    "@tanstack/react-query-devtools": "catalog:",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "@vitejs/plugin-react": "catalog:",
+    "eslint": "catalog:",
+    "eslint-plugin-react-hooks": "catalog:",
+    "eslint-plugin-react-refresh": "catalog:",
+    "globals": "^15.11.0",
+    "prettier": "catalog:",
+    "typescript": "catalog:",
+    "typescript-eslint": "catalog:",
+    "vite": "catalog:",
+    "vite-tsconfig-paths": "^5.0.1"
+  }
+}

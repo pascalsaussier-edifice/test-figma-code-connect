@@ -1,0 +1,29 @@
+import * as icons from "@edifice.io/react/icons";
+import { Meta, Story } from "@storybook/blocks";
+import { Icons } from "../../components/Icons";
+
+<Meta title="Design System/Icons/Common Icons" />
+
+# Common Icons
+
+To use this set of icons, import `@edifice.io/react/icons` into your code:
+
+- `import { AddUser, AlertCircle, Check } from "@edifice.io/react/icons;"`
+
+## Usage
+
+Then you can use any icon as follows:
+
+```jsx
+function MyComponent() {
+  return (
+    <button>
+      <AddUser /> Add a new user
+    </button>
+  );
+}
+```
+
+## Icons
+
+<Icons icons={icons} />

@@ -1,0 +1,17 @@
+@use '../abstracts/' as *;
+
+.combobox-trigger {
+  min-width: 30rem;
+
+  &.input-group {
+    input,
+    > .form-control {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+
+  .input-group-text {
+    line-height: 2.2rem;
+  }
+}

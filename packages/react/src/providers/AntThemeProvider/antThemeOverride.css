@@ -1,0 +1,8 @@
+/**
+  To customize the theme using CSS variables, convert the camelCase token name to kebab-case with the --ant- prefix.
+  Reference: https://ant.design/docs/react/customize-theme#api
+  Example: colorPrimaryTextActive => --ant-color-primary-text-active
+*/
+:root .edifice {
+  --ant-border-radius: var(--edifice-border-radius);
+}

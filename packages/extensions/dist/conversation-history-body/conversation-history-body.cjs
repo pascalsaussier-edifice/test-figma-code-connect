@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const core=require("@tiptap/core"),ConversationHistoryBody=core.Node.create({name:"converstationHistoryBody",group:"block",content:"block+",parseHTML(){return[{tag:"div.conversation-history-body"}]},renderHTML({HTMLAttributes}){return["div",core.mergeAttributes(HTMLAttributes,{class:"conversation-history-body"}),0]}});exports.ConversationHistoryBody=ConversationHistoryBody;
+//# sourceMappingURL=conversation-history-body.cjs.map

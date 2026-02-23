@@ -1,0 +1,6 @@
+
+[43m[30m WARN [39m[49m Issue while reading "/Volumes/Work/edifice-frontend-framework/.npmrc". Failed to replace env in config: ${NPM_TOKEN}
+
+> @edifice.io/client@2.5.12 format /Volumes/Work/edifice-frontend-framework/packages/client
+> pnpm run format:write && pnpm run format:check
+

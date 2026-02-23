@@ -1,0 +1,33 @@
+@use '../abstracts/' as *;
+
+[data-product='neo'][data-theme='na'] {
+  --#{$prefix}secondary: #e20037;
+
+  .header {
+    .navbar {
+      background: #e20037;
+    }
+  }
+}
+
+[data-product='neo'][data-theme='cg77'] {
+  --#{$prefix}primary: #004899;
+  --#{$prefix}secondary: #00ace9;
+
+  .header {
+    .navbar {
+      background: var(--#{$prefix}primary);
+    }
+  }
+}
+
+[data-product='neo'][data-theme='monlycee'] {
+  --#{$prefix}primary: #2a327b;
+  --#{$prefix}secondary: #d71302;
+
+  .header {
+    .navbar {
+      background: var(--#{$prefix}primary);
+    }
+  }
+}

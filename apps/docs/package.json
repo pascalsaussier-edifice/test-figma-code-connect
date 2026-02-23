@@ -1,0 +1,42 @@
+{
+  "name": "@edifice.io/storybook",
+  "version": "2.0.1",
+  "private": true,
+  "homepage": "https://github.com/edificeio/edifice-frontend-framework/tree/main/apps/docs#readme",
+  "bugs": {
+    "url": "https://github.com/edificeio/edifice-frontend-framework/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edificeio/edifice-frontend-framework.git",
+    "directory": "apps/docs"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "build": "storybook build --docs -o dist/",
+    "docs": "storybook dev -p 6006",
+    "preview": "npx http-server dist/"
+  },
+  "dependencies": {
+    "@edifice.io/bootstrap": "workspace:*",
+    "@edifice.io/react": "workspace:*",
+    "@tanstack/react-query": "catalog:",
+    "i18next": "^23.15.1",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "i18next-http-backend": "^2.6.1",
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "react-i18next": "catalog:"
+  },
+  "devDependencies": {
+    "@edifice.io/config": "workspace:*",
+    "vite": "catalog:"
+  }
+}

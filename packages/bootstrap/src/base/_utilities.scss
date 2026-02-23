@@ -1,0 +1,52 @@
+@use '../abstracts/' as *;
+@use '../vendors/bootstrap';
+
+@each $value, $color in $extra-colors {
+  .text-bg-#{$value} {
+    color: $white !important;
+    background-color: var(--#{$prefix}#{$value}) !important;
+  }
+}
+
+@each $value, $color in $extra-colors {
+  .text-#{$value} {
+    color: var(--#{$prefix}#{$value}) !important;
+  }
+}
+
+@each $value, $color in $extra-colors {
+  .bg-#{$value} {
+    background-color: var(--#{$prefix}#{$value}) !important;
+  }
+}
+
+@each $value, $color in $extend-theme-colors {
+  .text-bg-#{$value} {
+    color: $white !important;
+    background-color: var(--#{$prefix}#{$value}) !important;
+  }
+}
+
+@each $value, $color in $extend-theme-colors {
+  .text-#{$value} {
+    color: var(--#{$prefix}#{$value}) !important;
+  }
+}
+
+@each $value, $color in $extend-theme-colors {
+  .bg-#{$value} {
+    background-color: var(--#{$prefix}#{$value}) !important;
+  }
+}
+
+@each $value, $color in $extend-theme-colors {
+  .border-#{$value} {
+    border-color: var(--#{$prefix}#{$value}) !important;
+  }
+}
+
+@each $value, $color in $main-colors {
+  .bg-#{$value} {
+    background-color: var(--#{$prefix}#{$value}) !important;
+  }
+}

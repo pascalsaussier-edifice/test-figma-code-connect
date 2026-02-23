@@ -1,0 +1,13 @@
+@use '../abstracts/' as *;
+
+.breadcrumb {
+  &-item {
+    &::before {
+      display: none;
+    }
+
+    & + .breadcrumb-item {
+      padding-left: 0;
+    }
+  }
+}
